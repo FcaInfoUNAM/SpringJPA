@@ -188,3 +188,6 @@ curl -s -X POST localhost:8080/producto \
 Revis la base datos utilizandoselo la extensión de vscode
 abre la plicacion en un navegador y añade /productos al final
 
+## 8
+Realiza los pasos 3 a 7 adaptando el codigo a una tabla de tu proyecto
+
