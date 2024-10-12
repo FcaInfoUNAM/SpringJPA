@@ -188,6 +188,24 @@ curl -s -X POST localhost:8080/producto \
 Revis la base datos utilizandoselo la extensión de vscode
 abre la plicacion en un navegador y añade /productos al final
 
-## 8
+## Paso 8
 Realiza los pasos 3 a 7 adaptando el codigo a una tabla de tu proyecto
+
+## Informacion importante
+
+* Si se te muere la ventana del codespace con spring iniciado pues matar el proceso con los siguientes comandos
+
+Bucar PID:
+```cmd
+fuser 8080/tcp
+```
+Matar proceso con el PID que regresa el comando anterior:
+```cmd
+kill <PID>
+```
+* Si requieres iniciar postgres porque se inicio tu contenedor otra vez usa los siguientes comandos
+```cmd
+sdo su
+service postgresql start
+```
 
