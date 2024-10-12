@@ -40,7 +40,7 @@ Abrir el archivo ```/workspaces/empty/demo/src/main/resources/application.proper
 Agregar configuración Postgres
 ```
 spring.application.name=demo
-spring.datasource.url= 'jdbc:postgresql://localhost:5432/chochos'
+spring.datasource.url= jdbc:postgresql://localhost:5432/chochos
 spring.datasource.username= chochos
 spring.datasource.password= chochos
 spring.jpa.hibernate.ddl-auto= update
